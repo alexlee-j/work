@@ -67,11 +67,12 @@ int main()
 		}
 	}
 	migong(1, 1);//将入口坐标传给函数 
-	if (minstep)  
+	if (minstep) { 
 		printf("%d", minstep);
-	else
+		} 
+	else{ 
 		printf("No solution");
-
+		} 
 	return 0;
 }
 
